@@ -1,0 +1,43 @@
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+    "first_name": "Tiago",
+    "last_name": "Neves",
+    "biography": "I'm a developer"
+}
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+    "first_name": "Mara",
+    "last_name": "Neves",
+    "biography": "I'm a Teacher"
+}
+
+###
+GET http://localhost:8080/api/users
+Content-Type: application/json
+
+###
+
+GET http://localhost:8080/api/users/9e6400d7-70f9-4e72-ac1b-029b0eceb877
+Content-Type: application/json
+
+###
+
+PUT http://localhost:8080/api/users/9e6400d7-70f9-4e72-ac1b-029b0eceb877
+Content-Type: application/json
+
+{
+    "first_name": "Tiago Michel Silva Das",
+    "last_name": "Neves",
+    "biography": "I'm a developer!"
+}
+
+###
+DELETE http://localhost:8080/api/users/a681d8ee-eb33-40bd-8f7d-81ae5650152b
+Content-Type: application/json
